@@ -1,7 +1,7 @@
 
 from ast import operator
 from art import logo
-print(logo)
+
 
 
 def add(n1,n2):
@@ -20,6 +20,7 @@ cal_dic={
     "/":division,
 }
 def calculator():
+    print(logo)
     num1=int(input("What's the First Number: "))
     for symbol in cal_dic:
         print(symbol)
